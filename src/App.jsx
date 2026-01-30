@@ -1,4 +1,4 @@
-import Navbar from "./components/navbar";
+import Navbar from "./components/Navbar";
 import HeroPage from "./components/HeroPage";
 import About from "./components/About";
 import Schedule from "./components/Schedule";
