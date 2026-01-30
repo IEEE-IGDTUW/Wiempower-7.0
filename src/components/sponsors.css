@@ -1,4 +1,4 @@
-/* ================= PAGE ================= */
+/* ================= PAGE =================
 
 .sponsor-section {
   background: radial-gradient(circle, #16061f, #05010b);
@@ -10,7 +10,7 @@
 
 /* ================= GLITCH HEADING ================= */
 
-.sponsor-heading {
+/* .sponsor-heading {
   position: relative;
   font-size: 3.2rem;
   font-weight: 900;
@@ -307,4 +307,4 @@
       0 0 15px rgba(180,120,255,0.35),
       inset 0 0 15px rgba(180,120,255,0.25);
   }
-}
+} */ */

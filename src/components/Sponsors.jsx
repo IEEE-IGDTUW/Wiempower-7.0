@@ -15,8 +15,8 @@ const Sponsors = () => {
       <div className="orbit-container">
 
         <div className="orbit-glow"></div>
-<div className="orbit-ring"></div>
-<div className="orbit-ring-light"></div>
+        <div className="orbit-ring"></div>
+        <div className="orbit-ring-light"></div>
 
 
         {/* LOGOS MOVING LIKE A FAIR WHEEL */}
