@@ -4,37 +4,37 @@ import bgImage from "../assets/bg.png";
 import FuzzyText from "./FuzzyText.jsx";
 
 const schedule = [
-  {
-    date: "6th February 2026",
-    title: "Registration Opens [Online]",
-    desc: "Team registrations begin. Register your team through the official portal and join Discord to stay updated with announcements, rules, and mentor interactions.",
-  },
-  {
-    date: "14th – 16th February 2026",
-    title: "Ideation Period [Online]",
-    desc: "Teams brainstorm, research, and finalize their problem statement and solution approach. Mentors will be available to guide teams during this phase.",
-  },
-  {
-    date: "16th February 2026 (EOD) – 18th February 2025 (EOD)",
-    title: "Development Period [Online]",
-    desc: "Teams start building their solution. Focus on implementation, testing, and preparing a working prototype along with a presentation.",
-  },
-  {
-    date: "19th February 2026 (EOD)",
-    title: "Finalists Announcement [Online]",
-    desc: "Top teams will be shortlisted based on their submissions. Finalists will be announced through official communication channels.",
-  },
-  {
-    date: "20th February 2026",
-    title: "Final Presentation [Offline]",
-    desc: "Shortlisted teams will present their final solution and prototype before the judges at the IGDTUW campus. Results will be declared after the presentations.",
-  },
+    {
+        date: "6th February 2026",
+        title: "Registration Opens [Online]",
+        desc: "Team registrations begin. Register your team through the official portal and join Discord to stay updated with announcements, rules, and mentor interactions.",
+    },
+    {
+        date: "14th – 16th February 2026",
+        title: "Ideation Period [Online]",
+        desc: "Teams brainstorm, research, and finalize their problem statement and solution approach. Mentors will be available to guide teams during this phase.",
+    },
+    {
+        date: "16th February 2026 (EOD) – 18th February 2025 (EOD)",
+        title: "Development Period [Online]",
+        desc: "Teams start building their solution. Focus on implementation, testing, and preparing a working prototype along with a presentation.",
+    },
+    {
+        date: "19th February 2026 (EOD)",
+        title: "Finalists Announcement [Online]",
+        desc: "Top teams will be shortlisted based on their submissions. Finalists will be announced through official communication channels.",
+    },
+    {
+        date: "20th February 2026",
+        title: "Final Presentation [Offline]",
+        desc: "Shortlisted teams will present their final solution and prototype before the judges at the IGDTUW campus. Results will be declared after the presentations.",
+    },
 ];
 
 
 const Schedule = () => {
     return (
-        <section className="relative min-h-screen w-full text-white font-sans overflow-hidden py-20 px-6 pt-24">
+        <section id="hackathon-schedule" className="relative min-h-screen w-full text-white font-sans overflow-hidden py-20 px-6 pt-24">
             {/* Background */}
             <div className="absolute inset-0 pointer-events-none -z-10">
                 <div className="absolute inset-0 bg-cover bg-center" style={{ backgroundImage: `url(${bgImage})` }} />

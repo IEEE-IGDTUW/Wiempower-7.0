@@ -5,59 +5,59 @@ const Events = () => {
     const events = [
         {
             id: 1,
-            title: "NULL",
-            speaker: "NULL",
-            date: "NULL",
-            time: "NULL",
-            location: "NULL",
-            description: "NA",
-            image: "NULL",
-            badge: "ABC"
+            title: "COMING SOON!!!",
+            // speaker: "NULL",
+            // date: "NULL",
+            // time: "NULL",
+            // location: "NULL",
+            // description: "NA",
+            // image: "NULL",
+            // badge: "ABC"
         },
-        {
-            id: 2,
-            title: "NULL",
-            speaker: "NULL",
-            date: "NULL",
-            time: "NULL",
-            location: "NULL",
-            description: "NA",
-            image: "NULL",
-            badge: "ABC"
-        },
-        {
-            id: 3,
-            title: "NULL",
-            speaker: "NULL",
-            date: "NULL",
-            time: "NULL",
-            location: "NULL",
-            description: "NA",
-            image: "NULL",
-            badge: "ABC"
-        },
-        {
-            id: 4,
-            title: "NULL",
-            speaker: "NULL",
-            date: "NULL",
-            time: "NULL",
-            location: "NULL",
-            description: "NA",
-            image: "NULL",
-            badge: "ABC"
-        },
-        {
-            id: 5,
-            title: "NULL",
-            speaker: "NULL",
-            date: "NULL",
-            time: "NULL",
-            location: "NULL",
-            description: "NA",
-            image: "NULL",
-            badge: "ABC"
-        },
+        // {
+        //     id: 2,
+        //     title: "NULL",
+        //     speaker: "NULL",
+        //     date: "NULL",
+        //     time: "NULL",
+        //     location: "NULL",
+        //     description: "NA",
+        //     image: "NULL",
+        //     badge: "ABC"
+        // },
+        // {
+        //     id: 3,
+        //     title: "NULL",
+        //     speaker: "NULL",
+        //     date: "NULL",
+        //     time: "NULL",
+        //     location: "NULL",
+        //     description: "NA",
+        //     image: "NULL",
+        //     badge: "ABC"
+        // },
+        // {
+        //     id: 4,
+        //     title: "NULL",
+        //     speaker: "NULL",
+        //     date: "NULL",
+        //     time: "NULL",
+        //     location: "NULL",
+        //     description: "NA",
+        //     image: "NULL",
+        //     badge: "ABC"
+        // },
+        // {
+        //     id: 5,
+        //     title: "NULL",
+        //     speaker: "NULL",
+        //     date: "NULL",
+        //     time: "NULL",
+        //     location: "NULL",
+        //     description: "NA",
+        //     image: "NULL",
+        //     badge: "ABC"
+        // },
     ];
 
     return (
@@ -109,25 +109,33 @@ const Events = () => {
             </div>
 
             {/* Events Grid */}
-            <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-6">
+            <div className="relative z-10 w-full px-6">
+                <div className="grid grid-cols-1 gap-8">
                     {events.map((event) => (
                         <div
                             key={event.id}
                             className="group relative bg-gradient-to-br from-purple-900/30 to-purple-900/10 border border-purple-500/30 rounded-xl overflow-hidden hover:border-purple-400/60 transition-all duration-300 hover:shadow-lg hover:shadow-purple-500/20"
                         >
-                            <div className="relative p-6 h-full flex flex-col">
+                            <div className="relative p-10 min-h-[300px] flex items-center justify-center w-full">
                                 {/* Badge */}
                                 <div className="mb-4">
-                  <span className="inline-block bg-purple-500/30 text-purple-300 text-xs font-semibold px-3 py-1 rounded-full border border-purple-400/50">
+                  {/* <span className="inline-block bg-purple-500/30 text-purple-300 text-xs font-semibold px-3 py-1 rounded-full border border-purple-400/50">
                     {event.badge}
-                  </span>
+                  </span> */}
                                 </div>
 
                                 {/* Title */}
-                                <h3 className="text-lg font-bold text-white mb-4 line-clamp-3 group-hover:text-purple-300 transition-colors">
-                                    {event.title}
-                                </h3>
+                                                        <h3 className="w-full 
+                                    text-center 
+                                    text-5xl md:text-6xl lg:text-7xl 
+                                    font-extrabold 
+                                    tracking-widest 
+                                    text-white 
+                                    group-hover:text-purple-300 
+                                    transition-colors
+                                    font-serif">
+                        {event.title}
+                        </h3>
 
                                 {/* Speaker */}
                                 <p className="text-purple-300 font-semibold mb-4">
@@ -161,10 +169,10 @@ const Events = () => {
                                     )}
                                 </div>
 
-                                {/* Register Button */}
+                                {/* Register Button
                                 <button className="w-full bg-gradient-to-r from-purple-600 to-pink-600 hover:from-purple-500 hover:to-pink-500 text-white font-bold py-2 px-4 rounded-lg transition-all duration-300 transform hover:scale-105">
                                     Register Now
-                                </button>
+                                </button> */}
                             </div>
                         </div>
                     ))}
