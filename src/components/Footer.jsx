@@ -78,10 +78,10 @@ const Footer = () => {
 
       <div className="mt-10 text-center">
         <p className="text-white text-[13px] md:text-sm font-medium">
-          Developed by IEEE IGDTUW Web Admin Team
+          Developed by IEEE IGDTUW Technical Team
         </p>
         <p className="text-white text-[13px] md:text-sm font-medium">
-          © IEEE IGDTUW 2024 | All rights reserved.
+          © IEEE IGDTUW 2026 | All rights reserved.
         </p>
       </div>
     </footer>
