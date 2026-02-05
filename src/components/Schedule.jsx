@@ -150,6 +150,7 @@ const Schedule = () => {
                 </div>
             </div>
 
+
             {/* Ambient glows */}
             <div className="absolute top-24 left-10 w-64 h-64 bg-fuchsia-600/20 rounded-full blur-[100px] animate-pulse" />
             <div className="absolute bottom-20 right-10 w-80 h-80 bg-purple-900/20 rounded-full blur-[120px] animate-pulse delay-1000" />
