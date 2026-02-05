@@ -19,7 +19,8 @@ function App() {
       <div id="tracks"><TracksPage /></div>
       <div id="events"><Events /></div>
       <div id="faq"><FAQ /></div>
-      <Footer />
+      <div id="contact"><Footer/></div>
+     
     </>
 
 
