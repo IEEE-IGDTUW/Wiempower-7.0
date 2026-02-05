@@ -45,7 +45,7 @@ const Footer = () => {
               <li><a href="#" className="hover:text-fuchsia-400 transition-colors">Registration</a></li>
               <li><a href="#about" className="hover:text-fuchsia-400 transition-colors">About</a></li>
               <li><a href="#schedule" className="hover:text-fuchsia-400 transition-colors">Timeline</a></li>
-              <li><a href="#" className="hover:text-fuchsia-400 transition-colors">Contact</a></li>
+              <li><a href="#contact" className="hover:text-fuchsia-400 transition-colors">Contact</a></li>
             </ul>
           </div>
         </div>
@@ -71,7 +71,7 @@ const Footer = () => {
             <p className="font-bold text-white text-sm tracking-wide">For more information, contact:</p>
             <p className="flex items-center tracking-tight">• <a href="https://www.linkedin.com/company/ieee-igdtuw/" className="ml-1 hover:underline hover:text-fuchsia-400 transition">LinkedIn Profile</a></p>
             <p className="flex items-center tracking-tight">• <a href="https://www.instagram.com/ieeeigdtuw/" className="ml-1 hover:underline hover:text-fuchsia-400 transition">Instagram ID</a></p>
-            <p className="pt-1">Email: <a href="mailto:igdtuieee@gmail.com" className="text-fuchsia-400 font-medium hover:underline">igdtuieee@gmail.com</a></p>
+            <p className="pt-1">Email: <a href="mailto:ieeeigdtu@gmail.com" className="text-fuchsia-400 font-medium hover:underline">ieeeigdtu@gmail.com</a></p>
           </div>
         </div>
       </div>
